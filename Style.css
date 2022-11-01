@@ -1,0 +1,57 @@
+.fstprjt {
+  width: 100%;
+  
+  padding: 50px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.black_band{background-color: black; color:white; font-size:17px }
+.brown_band{background-color: brown; color:white; font-size:17px }
+.red_band{background-color: red; color:white; font-size:17px }
+.orange_band{background-color: orange; color:white; font-size:17px }
+.yellow_band{background-color: yellow; color:white; font-size:17px }
+.green_band{background-color: green; color:white; font-size:17px }
+.blue_band{background-color: blue; color:white; font-size:17px }
+.violet_band{background-color: violet; color:white; font-size:17px }
+.gray_band{background-color: gray; color:white; font-size:17px }
+.white_band{background-image: linear-gradient(violet,blue,green,yellow,orange,red); color:white; font-size:17px }
+.gold_band{background-color: gold; color:white; font-size:17px }
+.silver_band{background-color: silver; color:white; font-size:17px }
+.para{background-color:green; color:white;text-align:center; text-size:400px; font-size:20px;}
+.para::before { 
+  content: ":::::   RESULT   :::::\a ";
+white-space:pre;
+
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.button-check {
+  align-items: center;
+  width:100%;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 15px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
